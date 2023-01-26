@@ -15,7 +15,6 @@ function logID() {
     console.log(this.id);
 }
 
-
 vectorAdd.addEventListener('click',logID);
 vectorAirplane.addEventListener('click', logID);
 vectorStar.addEventListener('click', logID);
