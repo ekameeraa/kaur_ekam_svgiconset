@@ -43,3 +43,41 @@ h3 {
     cursor: pointer;
     color: blue;
 }
+
+.add img {width: 50%;}
+#add:hover {fill: red; transform: rotate(60deg);}
+#add {transition: all 0.5s ease; transform-origin: 50%;}
+
+
+.airplane img {width: 50%;}
+#airplane:hover {fill: skyblue; transform: rotate(15deg);}
+#airplane {transition: all 0.5s ease; transform-origin: 100%;}
+
+.star img {width: 50%;}
+#star:hover {fill: yellow; transform: rotate(15deg);}
+#star {transition: all 0.5s ease; transform-origin: 100%;}
+
+.delete img{width: 50%;}
+#delete:hover {fill: red; transform: rotate(130deg);}
+#delete {transition: all 0.5s ease; transform-origin: 50%;}
+
+.home img {width: 50%;}
+#home:hover {fill: brown;}
+
+.integral img {width: 50%;}
+#integral:hover {fill: grey;}
+
+.less img {width: 50%;}
+#less:hover {fill: blueviolet; background-color: whitesmoke;}
+
+.menu img {width: 50%;}
+#menu:hover {fill: springgreen; transform: rotate(80deg);}
+#menu {transition: all 0.5s ease; transform-origin: 50%;}
+
+.mine img {width: 50%;}
+#mine:hover {fill: orange; background-color: black;}
+
+.remember img {width: 50%;}
+#remember:hover {fill:magenta; background-color: yellow; 
+    transform: rotate(80deg);}
+#remember {transition: all 0.5s ease; transform-origin: 50%;}
