@@ -1,31 +1,28 @@
 console.log('Javascript is running');
 
-let vectorBeach = document.querySelector("#vectorBeach");
-let vectorBridge = document.querySelector("#vectorBridge");
-let vectorCity = document.querySelector("#vectorCity");
-let vectorDesert = document.querySelector("#vectorDesert");
-let vectorFall = document.querySelector("#vectorFall");
-let vectorForest = document.querySelector("#vectorForest");
-let vectorHimalaya = document.querySelector("#vectorHimalaya");
+let vectorAdd = document.querySelector("#vectorAdd");
+let vectorAirplane = document.querySelector("#vectorcryAirplane");
+let vectorStar = document.querySelector("#vectorStar");
+let vectorDelete = document.querySelector("#vectorDelete");
 let vectorHome = document.querySelector("#vectorHome");
-let vectorMountain = document.querySelector("#vectorMountain");
-let vectorRiver = document.querySelector("#vectorRiver");
-let vectorScenery = document.querySelector("#vectorScenery");
-let vectorSea = document.querySelector("#vectorSea");
+let vectorIntegral = document.querySelector("#vectorcryIntegral");
+let vectorLess = document.querySelector("#vectorLess");
+let vectorMenu = document.querySelector("#vectorMenu");
+let vectorMine = document.querySelector("#vectorMine");
+let vectorRemember = document.querySelector("#vectorRemember");
 
 function logID() {
     console.log(this.id);
 }
 
-vectorBeach.addEventListener('click', logID);
-vectorBridge.addEventListener('click', logID);
-vectorCity.addEventListener('click', logID);
-vectorDesert.addEventListener('click', logID);
-vectorFall.addEventListener('click', logID);
-vectorForest.addEventListener('click', logID);
-vectorHimalaya.addEventListener('click', logID);
+
+vectorAdd.addEventListener('click',logID);
+vectorAirplane.addEventListener('click', logID);
+vectorStar.addEventListener('click', logID);
+vectorDelete.addEventListener('click', logID);
 vectorHome.addEventListener('click', logID);
-vectorMountain.addEventListener('click', logID);
-vectorRiver.addEventListener('click', logID);
-vectorScenery.addEventListener('click', logID);
-vectorSea.addEventListener('click', logID);
+vectorIntegral.addEventListener('click', logID);
+vectorLess.addEventListener('click', logID);
+vectorMenu.addEventListener('click', logID);
+vectorMine.addEventListener('click', logID);
+vectorRemember.addEventListener('click', logID);
